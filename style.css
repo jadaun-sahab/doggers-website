@@ -1,0 +1,281 @@
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  transition: all .6s;
+}
+#navbar {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 2px 2px 7px rgb(210, 210, 210);
+}
+.navbar {
+  background-color: rgb(244, 254, 255);
+  position: fixed;
+  z-index: 2;
+  height: 60px;
+  width: 77%;
+  margin-left: 12em;
+  display: flex;
+}
+.navbar:focus {
+  background-color: rgba(255, 255, 255, 0.409);
+}
+.navbar::before {
+  position: fixed;
+  background-color: rgb(112, 79, 79);
+}
+.nav {
+  margin-top: 1.8rem;
+  text-align: right;
+  position: absolute;
+  right: 5rem;
+}
+.logo {
+  margin-top: 0.7rem;
+  font-size: 2.3rem;
+}
+.logo span {
+  color: grey;
+}
+.nav ul {
+  display: flex;
+}
+.nav ul li {
+  list-style: none;
+}
+.nav ul li a {
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  padding: 10px 23px;
+}
+.nav ul li ul {
+  display: none;
+}
+.nav ul li:hover > ul {
+  position: relative;
+  top: 20px;
+  text-align: left;
+  display: block;
+  background-color: rgb(244, 254, 255);
+  width: 170px;
+}
+.nav ul li:hover > ul li {
+  padding: 10px;
+}
+/* ------------navbar---------- */
+#class1-main {
+  background-color: rgb(244, 254, 255);
+}
+#class1 {
+  height: 1000%;
+  margin: 0 auto;
+  width: 70%;
+  display: flex;
+  padding-bottom: 50px;
+}
+.class1-1 {
+  font-size: 2rem;
+  margin-top: 8em;
+}
+.class1-1 p {
+  padding-top: 5px;
+  font-size: 1.35rem;
+  width: 70%;
+  color: grey;
+}
+.class1-2 img {
+  position: relative;
+  top: 50px;
+  width: 480px;
+}
+
+#section2-main {
+  text-align: center;
+}
+#section2-main p {
+  padding-top: 10px;
+  color: grey;
+  margin: 0 auto;
+  width: 600px;
+}
+.fa-paw {
+  margin: 4rem 0 1.5rem 0;
+}
+.big {
+  color: rgb(161, 197, 197);
+  font-size: 2rem;
+}
+.small {
+  padding: 0 7px;
+  color: rgb(221, 239, 239);
+  transform: rotate(35deg);
+}
+.small-2 {
+  transform: rotate(-35deg);
+  padding: 0 7px;
+  color: rgb(221, 239, 239);
+}
+
+#section3 {
+  margin: 2rem auto;
+  width: 70%;
+}
+.section3 {
+  display: flex;
+}
+.sec3-1 {
+  margin: 0 auto;
+  display: block;
+  width: 50%;
+}
+.sec3-2 {
+  width: 50%;
+  padding: 20px;
+}
+.sec3-2 img {
+  width: 100%;
+}
+.sec3-1 h1 {
+  padding-top: 40px;
+  font-weight: 400;
+  width: 85%;
+  text-align: right;
+}
+.sec3-1 p {
+  color: grey;
+  width: 70%;
+  margin: 0.5rem auto 1.5rem auto;
+  text-align: right;
+}
+.sec3-2 img:hover {
+  box-shadow: 10px 10px 0px rgb(161, 197, 197);
+}
+.btn2 {
+  margin-left: 20rem;
+  font-size: 0.9rem;
+  background-color: rgb(161, 197, 197);
+  padding: 12px 22px;
+  border-radius: 20px;
+  border: none;
+  color: white;
+}
+.btn2:hover {
+  background-color: rgb(0, 0, 0);
+}
+
+.sec4-1 {
+  margin: 0 auto;
+  display: block;
+  width: 50%;
+}
+.sec4-2 {
+  width: 50%;
+  padding: 20px;
+}
+.sec4-2 img {
+  width: 100%;
+}
+.sec4-1 h1 {
+  margin-left: 3rem;
+  padding-top: 40px;
+  font-weight: 400;
+}
+.sec4-1 p {
+  color: grey;
+  width: 70%;
+  margin: 0.5rem 0 1.5rem 3rem;
+}
+
+.sec4-2 img:hover {
+  box-shadow: 10px 10px 0px rgb(161, 197, 197);
+}
+.btn3 {
+  font-size: 0.9rem;
+  background-color: rgb(161, 197, 197);
+  padding: 12px 22px;
+  border-radius: 20px;
+  border: none;
+  color: white;
+  margin-left: 3rem;
+}
+.btn3:hover {
+  background-color: rgb(0, 0, 0);
+}
+
+#section4 {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+}
+.sec-4-1 {
+  padding-top: 40px;
+  width: 50%;
+}
+.sec-4-1 h3 {
+  width: 80%;
+  color: rgb(172, 171, 171);
+  font-size: 1.25rem;
+  font-weight: 300;
+  margin: 2rem 0;
+  line-height: 1.5;
+}
+.sec-4-1 h4 {
+  font-size: 1.1rem;
+  font-weight: 300;
+  width: 80%;
+  color: #6c757d ;
+  line-height: 1.5;
+  margin-bottom: 16px;
+}
+.sec-4-1 ul{
+  margin: 10px 0;
+  color: grey;
+}
+.sec-4-1 ul >.fa-solid{
+  color: rgb(161, 197, 197);
+margin: 5px 10px 5px 0;
+padding: 0;
+font-size: 1rem;
+}
+.sec-4-2 {
+  width: 50%;
+}
+.sec-4-2 img {
+  width: 95%;
+}
+
+.section-5 {
+  text-align: center;
+  color: grey;
+}
+.section-5 p{
+text-align: center;
+font-size: 1.2rem;
+width: 40%;
+margin: 20px auto;
+line-height: 1.4;
+}
+#section5main{
+  width: 75%;
+  display: flex;
+  margin: 0 auto;
+}
+.sec5child img{
+  width: 85%;
+  transition: all .6s;
+}
+.sec5child img:hover {
+  box-shadow: 10px 10px 0px rgb(60, 60, 60);
+}
+.sec5child p{
+  padding-left: 10px;
+  width: 80%;
+  line-height: 1.5;
+}
+.sec5child h3{
+  padding-left: 10px;
+  font-weight: 400;
+  font-size: 1.4rem;
+  margin: 50px  0 20px 0;
+}
