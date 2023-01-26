@@ -5,7 +5,11 @@
   transition: all .6s;
 }
 #navbar {
-  background-color: rgb(255, 255, 255);
+  z-index: 2;
+  position: fixed;
+  height: 60px;
+  width: 100%;
+  background-color: rgb(244, 254, 255);
   box-shadow: 2px 2px 7px rgb(210, 210, 210);
 }
 .navbar {
@@ -53,8 +57,10 @@
   display: none;
 }
 .nav ul li:hover > ul {
+  border-top: 2px solid rgb(116, 151, 146);
   position: relative;
-  top: 20px;
+  top: 40px;
+  left: 4rem;
   text-align: left;
   display: block;
   background-color: rgb(244, 254, 255);
@@ -278,4 +284,230 @@ line-height: 1.4;
   font-weight: 400;
   font-size: 1.4rem;
   margin: 50px  0 20px 0;
+}
+#section7{
+  display: flex;
+  margin: 0 auto;
+  width: 70%;
+}
+.sec7{
+  color: white;
+  text-align: center;
+  display: block;
+  margin: 10px;
+  padding: 15px 20px;
+  background-color: rgb(39, 38, 38);
+}
+.sec7 h1{
+  margin: 1rem;
+font-size: 1.7rem;
+}
+.sec7 h2{
+  font-weight: 400;
+  font-size: 2.4rem;
+  margin: 13px auto;
+}
+.sec7 p{
+  margin: 26px auto;
+  font-size: 1rem;
+  width: 90%;
+  display: block;
+  text-align: left;
+}
+.btnbuy{
+  border-radius: 15px;
+  width: 30%;
+  font-size: 1.1rem;
+  margin: 0 auto;
+  padding: 8px 22px;
+  color: black;
+  background-color: rgb(170, 205, 186);
+}
+.btnbuy:hover{
+  color: white;
+  cursor: pointer;
+  background-color: rgb(101, 101, 101);
+}
+.fa-check{
+  margin: 0 10px;
+  font-size: 1rem;
+}
+#section8{
+  margin: 0 auto;
+  width: 70%;
+  display: flex;
+}
+.sec8{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
+.class8-1{
+  margin: 16px;
+  display: block;
+}
+.class8-1 p{
+  color: grey;
+}
+.class8-1 h2{
+  margin: 10px 0 10px 0;
+ font-weight: 400;
+}
+.class8-1 img{
+  width: 90px;
+}
+#section9{
+display: grid;
+margin: 5rem 0;
+grid-template-columns: repeat(4,1fr);
+}
+#section9 img{
+  width:100%;
+}
+#section9 img:hover{
+  margin:  auto;
+  width:95%;
+  object-fit: fill;
+  cursor: pointer;
+}
+#section10{
+  display: flex;
+  margin: 0 auto;
+  width: 70%;
+}
+.section10-1{
+  width: 100%;
+  background-color: rgb(151, 189, 189);
+  display: block;
+}
+.section10-1 h1{
+  font-weight: 400;
+  margin:  2rem auto;
+  color: rgb(63, 76, 73);
+  display: flex;
+width: 80%;
+}
+.section10-1 form{
+  display: block;
+}
+#sub, #email{
+  border: none;
+  border-radius: 5px;
+  width: 80%;
+  margin: 38px auto;
+  padding: 10px;
+  display: block;
+}
+#msg{
+  border: none;
+  border-radius: 5px;
+  width: 80%;
+  margin: 28px auto;
+  display: block;
+  padding: 3rem 10px; 
+}
+#fname{
+ display: flex;
+ margin: 16px auto;
+  width:86%;
+}
+#name{
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 0 6px;
+  width:100%;
+}
+#sec10-h1{
+  margin-bottom: 2.5rem;
+  color: white;
+}
+.section10-2{
+  color: white;
+  width: 100%;
+  background-color: #6c757d;
+  display: block;
+}
+.btns{
+  padding: 13px 26px;
+  color: white;
+  margin: 1rem 2rem 4rem 2rem;
+  border: none;
+  background-color: rgb(59, 59, 59);
+  border-radius: 17px;
+}
+.section10-2 p{
+  color: rgb(194, 193, 193);
+  width: 50%;
+  margin: 0 auto;
+  display: block;
+}
+.section10-2 h3{
+  color: rgb(255, 255, 255);
+  width: 50%;
+  margin: 10px auto;
+  display: block;
+}
+#section11{
+  background-color: rgb(57, 56, 56);
+}
+#about{
+  display: flex;
+  padding: 5rem 0;
+  width: 70%;
+  margin: 0 auto;
+}
+.about1-1{
+  width: 38%;
+}
+.about1-1 p{
+  width: 70%;
+  margin: 10px 0;
+  color: rgb(143, 141, 141);
+}
+.about1-2{
+  width: 18%;
+}
+.about1-2 p{
+  margin: 10px;
+  color: rgb(143, 141, 141);
+}
+.about1-3 p{
+  margin: 10px 0;
+  color: rgb(143, 141, 141);
+}
+.about1-3{
+  width: 18%;
+}
+.about1-4{
+  width: 28%;
+}
+#emaillast{
+  margin: 10px 0;
+  border: 1px solid white;
+  background-color: rgba(131, 73, 73, 0);
+  padding: 9px 10px;
+  width: 100px;
+}
+.btnsub{
+  margin-left: -4px;
+  padding: 10px 29px;
+  border-radius: 2px;
+  border: none;
+  background-color: rgb(255, 255, 255);
+}
+
+.about h1{
+  color: white;
+  font-weight: 400;
+  margin: 20px 0;
+  font-size: 1rem;
+}
+#footer{
+  background-color: rgb(57, 56, 56);
+}
+#footer p{
+  padding: 2.5rem 0 6rem 0;
+  text-align: center;
+  color: rgb(190, 190, 190);
+  display: block;
 }

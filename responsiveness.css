@@ -1,0 +1,162 @@
+@media (max-width:1000px) {
+     .nav {
+          right: 1rem;
+     }
+
+     .navbar {
+          margin-left: 4em;
+     }
+
+     .nav ul li a {
+          font-size: 1.3rem;
+          padding: 10px 8px;
+     }
+
+     #class1 {
+          display: block;
+          padding-bottom: 50px;
+     }
+
+     .class1-1 {
+          padding-top: 9rem;
+          margin: 0;
+     }
+
+     .class1-1 h1 {
+          font-size: 1.4em;
+     }
+
+     .btn2 {
+          margin-left: 6rem;
+          padding: 12px 22px;
+     }
+
+     #section2-main p {
+          width: 80%;
+     }
+
+     #section10 {
+          display: flex;
+          margin: 0 auto;
+          width: 90%;
+     }
+
+     #section7 {
+          width: 95%;
+     }
+
+     .class1-2 img {
+          position: relative;
+          top: 50px;
+          width: 380px;
+     }
+
+     #section8 {
+          margin: 0 auto;
+          width: 90%;
+          display: flex;
+     }
+
+     #section9 {
+          grid-template-columns: repeat(3, 1fr);
+     }
+
+     .sec3-1 {
+          margin: 0 auto;
+          display: block;
+          width: 90%;
+     }
+
+     .sec3-2 {
+          width: 90%;
+          padding: 20px;
+     }
+}
+
+@media (max-width:750px) {
+     .sec4-1{
+          width: 80%;
+     }
+     .logo {
+          font-size: 1.8rem;
+     }
+
+     .nav {
+          right: 0rem;
+     }
+
+     .navbar {
+          margin-left: 1rem;
+     }
+
+     .nav ul li a {
+          font-size: 1rem;
+          padding: 10px 8px;
+     }
+
+     .section3 {
+          display: block;
+     }
+
+     .btn2 {
+          margin-left: 2rem;
+          padding: 12px 22px;
+     }
+
+     #section7 {
+          display: block;
+          margin: 0 auto;
+          width: 70%;
+     }
+
+     .sec8 {
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+     }
+
+     #section10 {
+          display: block;
+          margin: 0 auto;
+          width: 90%;
+     }
+
+     #section5main {
+          width: 75%;
+          display: block;
+          margin: 0 auto;
+     }
+
+     #section9 {
+          grid-template-columns: repeat(2, 1fr);
+     }
+}
+
+@media (max-width:530px) {
+     #navbar{
+          width: 60%;
+     }
+     .logo {
+          margin: 0 0 1rem 0;
+          font-size: 1.3rem;
+     }
+
+     #section7 {
+          width: 90%;
+     }
+
+     .sec8 {
+          display: block;
+     }
+
+     .class1-2 img {
+          position: relative;
+          top: 50px;
+          width: 250px;
+     }
+}
+
+@media (max-width:350px) {
+     #section9 {
+          grid-template-columns: repeat(1, 1fr);
+     }
+}
