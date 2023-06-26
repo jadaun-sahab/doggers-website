@@ -83,7 +83,8 @@
      }
 
      .nav {
-          right: 0rem;
+          display: block;
+          /* right: 0rem; */
      }
 
      .navbar {
