@@ -137,9 +137,9 @@
      }
 
      #about {
-          display: grid;
+          /* display: grid;
           width: 50%;
-          grid-template-columns: repeat(2, 1fr);
+          grid-template-columns: repeat(2, 1fr); */
      }
 
      .about1-1 {
