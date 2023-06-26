@@ -28,6 +28,9 @@
   position: fixed;
   background-color: rgb(112, 79, 79);
 }
+.fa-bars{
+  position: absolute;
+}
 .nav {
   margin-top: 1.8rem;
   text-align: right;
