@@ -29,6 +29,7 @@
   background-color: rgb(112, 79, 79);
 }
 .fa-bars{
+  display: none;
   position: absolute;
   right: 0;
   top: 16px;
