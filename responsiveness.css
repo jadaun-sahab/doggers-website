@@ -82,7 +82,7 @@
           font-size: 1.8rem;
      }
 .navbar{
-     
+     display: block;
 }
      .nav {
           display: block;
