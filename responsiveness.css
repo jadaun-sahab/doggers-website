@@ -193,6 +193,10 @@
      .about1-2 {
           width: 58%;
      }
+     .about1-2 p{
+          margin: 10px;
+          color: rgb(143, 141, 141);
+        }
      .about1-3 {
           width: 98%;
      }
