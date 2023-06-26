@@ -74,9 +74,10 @@
 }
 
 @media (max-width:750px) {
-     .sec4-1{
+     .sec4-1 {
           width: 80%;
      }
+
      .logo {
           font-size: 1.8rem;
      }
@@ -119,7 +120,8 @@
           margin: 0 auto;
           width: 90%;
      }
-     .section10-2{
+
+     .section10-2 {
           margin-bottom: 1rem;
           padding-bottom: 1rem;
      }
@@ -134,17 +136,22 @@
           grid-template-columns: repeat(2, 1fr);
      }
 
-     #about{
-         display: grid;
-         width: 50%;
-         grid-template-columns: repeat(2,1fr);
-        }
+     #about {
+          display: grid;
+          width: 50%;
+          grid-template-columns: repeat(2, 1fr);
+     }
+
+     .about1-1 {
+          width: 38%;
+     }
 }
 
 @media (max-width:530px) {
-     #navbar{
+     #navbar {
           width: 60%;
      }
+
      .logo {
           margin: 0 0 1rem 0;
           font-size: 1.3rem;
