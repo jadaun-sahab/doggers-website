@@ -151,6 +151,9 @@
      .about1-3 {
           width: 38%;
      }
+     .about1-3 {
+          width: 38%;
+     }
 }
 
 @media (max-width:530px) {
