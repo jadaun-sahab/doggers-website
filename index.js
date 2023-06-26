@@ -1,4 +1,4 @@
-var MenuItem = document.getElementById("sidebar");
+var MenuItem = document.getElementsByClassName("nav");
 
 MenuItem.style.display = "none";
 
