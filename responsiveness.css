@@ -136,7 +136,7 @@
 
      #about{
          display: grid;
-         width: 90%;
+         /* width: 0%; */
          grid-template-columns: repeat(2,1fr);
         }
 }
