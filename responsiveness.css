@@ -180,9 +180,7 @@
           width: 250px;
      }
      #about {
-          display: grid;
-          width: 60%;
-          grid-template-columns: repeat(2, 1fr);
+          display: block;
      }
 
      .about1-1 {
