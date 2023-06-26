@@ -87,8 +87,7 @@
      }
      .fa-bars{
           display: none; 
-          right: 0;
-          top: 16px; 
+          right: 0; 
         }
      .navbar {
           margin-left: 1rem;
