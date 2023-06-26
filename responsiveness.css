@@ -179,6 +179,24 @@
           top: 50px;
           width: 250px;
      }
+     #about {
+          display: grid;
+          width: 60%;
+          grid-template-columns: repeat(2, 1fr);
+     }
+
+     .about1-1 {
+          width: 98%;
+     }
+     .about1-2 {
+          width: 58%;
+     }
+     .about1-3 {
+          width: 98%;
+     }
+     .about1-4 {
+          width: 98%;
+     }
 }
 
 @media (max-width:350px) {
