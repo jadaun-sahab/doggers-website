@@ -86,8 +86,7 @@
           display: block;
      }
      .fa-bars{
-          display: none;
-          position: absolute;
+          display: none; 
           right: 0;
           top: 16px; 
         }
