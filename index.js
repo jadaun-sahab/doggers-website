@@ -1,4 +1,4 @@
-var MenuItem = document.getElementsByClassName("nav");
+var MenuItem = document.getElementById("nav");
 
 MenuItem.style.display = "none";
 
