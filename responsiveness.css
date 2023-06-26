@@ -81,11 +81,10 @@
      .logo {
           font-size: 1.8rem;
      }
- 
-.nav ul{
-display: block;
-}
-      
+
+     .nav ul {
+          display: block;
+     }
 
      .navbar {
           margin-left: 1rem;
@@ -122,7 +121,7 @@ display: block;
           width: 90%;
      }
 
-     .section10-2 { 
+     .section10-2 {
           padding-bottom: 3rem;
      }
 
