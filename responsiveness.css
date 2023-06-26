@@ -145,12 +145,15 @@
      .about1-1 {
           width: 98%;
      }
+
      .about1-2 {
           width: 58%;
      }
+
      .about1-3 {
           width: 98%;
      }
+
      .about1-4 {
           width: 98%;
      }
@@ -179,6 +182,7 @@
           top: 50px;
           width: 250px;
      }
+
      #about {
           display: block;
           width: 80%;
@@ -187,17 +191,16 @@
      .about1-1 {
           width: 98%;
      }
-     .about1-1 p{
+
+     .about1-1 p {
           width: 90%;
-        }
-     .about1-2 {
-          width: 58%;
      }
-     .about1-2 p{
+
+     .about1-2 p {
           margin: 10px auto;
           color: rgb(143, 141, 141);
-        }
-         
+     }
+
 }
 
 @media (max-width:350px) {
