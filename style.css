@@ -100,6 +100,9 @@
   .nav ul li a {
       padding: .5rem 1rem;
   }
+  .nav ul li a ul{
+    display: none;
+  }
 
 }
 
