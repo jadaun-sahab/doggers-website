@@ -47,7 +47,7 @@
 
 
 
-@media (max-width: 800px) {
+@media (max-width: 750px) {
   .nav li a {
     display: block;
     text-decoration: none;
@@ -73,6 +73,7 @@
   }
   .nav ul li {
     padding: 1em;
+    background-color: #b9b9b9;
     text-align: center;
   }
 }
