@@ -48,36 +48,29 @@
 
 
 @media (max-width: 800px) {
-
   .nav li a {
     display: block;
     text-decoration: none;
     color: white;
     padding: 1rem;
   }
-
   .nav li:hover {
     background-color: #555;
   }
-
   .fa-bars {
     display: flex;
   }
-
   .nav { 
     height: 100%;
     display: none;
     width: 100%;
   }
-
   .nav.active {
     display: flex;
   }
-
   .nav ul { 
     width: 100%;
   }
-
   .nav ul li {
     background-color: #f8dede;
     text-align: center;
