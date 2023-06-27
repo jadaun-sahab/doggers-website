@@ -13,7 +13,7 @@ function menutoggle() {
 // toggle button 
 
 
-   const toggleButton = document.getElementsByClassName('fa-bars')[0]
+   const toggleButton = document.getElementsByClassName('')[0]
     const navbarLinks = document.getElementsByClassName('nav')[0]
    
     toggleButton.addEventListener('click', () => {
