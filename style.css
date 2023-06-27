@@ -39,7 +39,7 @@
 
 /* navbar  toggle*/
  
-
+/* 
 .nav{
   height: 100%;
 }
@@ -63,7 +63,7 @@
 
 .nav li:hover {
   background-color: #555;
-}
+} */
 
 @media (max-width: 800px) {
   .fa-bars {
