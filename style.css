@@ -73,7 +73,6 @@
   display: none;
 }
 
-
 @media (max-width: 800px) {
   .fa-bars {
       display: flex;
@@ -96,14 +95,9 @@
   .nav ul li {
       text-align: center;
   }
-
   .nav ul li a {
       padding: .5rem 1rem;
   }
-  .nav ul li a ul{
-    display: none;
-  }
-
 }
 
 
