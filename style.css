@@ -65,13 +65,13 @@
   background-color: #555;
 }
 
-.fa-bars {
+/* .fa-bars {
   position: absolute;
   top: 0;
   right: 0;
   z-index: 100;
   display: none;
-}
+} */
 
 @media (max-width: 800px) {
   .fa-bars {
