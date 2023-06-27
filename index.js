@@ -1,4 +1,4 @@
-// toggle button 
+  // toggle button 
 
    const toggleButton = document.getElementsByClassName('fa-bars')[0]
     const navbarLinks = document.getElementsByClassName('nav')[0]
@@ -8,4 +8,4 @@
     })
 
 
-    // toggle button 
+  // toggle button 
