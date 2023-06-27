@@ -80,14 +80,7 @@
   .fa-bars {
       display: flex;
   }
-
-  .fa-bars span {
-      color: rgb(255, 255, 255);
-      font-size: 2rem;
-      background-color: rgb(26, 25, 25);
-      text-decoration: none;
-  }
-
+ 
   .nav  {
       display: none;
       width: 100%;
