@@ -109,12 +109,12 @@
       display: flex;
   }
 
-  .nav  ul {
+  .nav ul {
       width: 100%;
       flex-direction: column;
   }
 
-  .navbar ul li {
+  .nav ul li {
       text-align: center;
   }
 
