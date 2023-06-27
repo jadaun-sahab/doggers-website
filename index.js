@@ -14,7 +14,7 @@ function menutoggle() {
 
 
    const toggleButton = document.getElementsByClassName('')[0]
-    const navbarLinks = document.getElementsByClassName('nav')[0]
+    const navbarLinks = document.getElementsByClassName('')[0]
    
     toggleButton.addEventListener('click', () => {
         navbarLinks.classList.toggle('active')
