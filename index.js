@@ -1,14 +1,14 @@
-var MenuItem = document.getElementById("nav");
+// var MenuItem = document.getElementById("nav");
 
-MenuItem.style.display = "flex";
+// MenuItem.style.display = "flex";
 
-function menutoggle() {
-     if (MenuItem.style.display == "none")
-      MenuItem.style.display = "block";
-     else {
-       MenuItem.style.display = "none";
-     }
-   }
+// function menutoggle() {
+//      if (MenuItem.style.display == "none")
+//       MenuItem.style.display = "block";
+//      else {
+//        MenuItem.style.display = "none";
+//      }
+//    }
 
 // toggle button 
 
