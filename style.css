@@ -72,6 +72,7 @@
     width: 100%;
   }
   .nav ul li {
+    padding: 1em;
     background-color: #efefef;
     text-align: center;
   }
