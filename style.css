@@ -40,22 +40,24 @@
 /* navbar  toggle*/
  
  
-.nav{
-  height: 100%;
-}
-
-.nav li a {
-  display: block;
-  text-decoration: none;
-  color: white;
-  padding: 1rem;
-}
-
-.nav li:hover {
-  background-color: #555;
-}   
+ 
 
 @media (max-width: 800px) {
+
+  .nav{
+    height: 100%;
+  }
+  
+  .nav li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+  }
+  
+  .nav li:hover {
+    background-color: #555;
+  }  
   .fa-bars {
       display: flex;
   }
