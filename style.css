@@ -64,8 +64,7 @@
     display: flex;
   }
 
-  .nav {
-    background-color: #f8dede;
+  .nav { 
     height: 100%;
     display: none;
     width: 100%;
@@ -75,11 +74,12 @@
     display: flex;
   }
 
-  .nav ul {
+  .nav ul { 
     width: 100%;
   }
 
   .nav ul li {
+    background-color: #f8dede;
     text-align: center;
   }
 }
