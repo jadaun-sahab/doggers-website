@@ -109,7 +109,7 @@
       display: flex;
   }
 
-  .navbar ul {
+  .nav  ul {
       width: 100%;
       flex-direction: column;
   }
