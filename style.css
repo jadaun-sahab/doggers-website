@@ -43,10 +43,7 @@
  
 
 @media (max-width: 800px) {
-  .nav{
-    
-  }
-  
+   
   .nav li a {
     display: block;
     text-decoration: none;
