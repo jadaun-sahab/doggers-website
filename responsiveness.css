@@ -83,7 +83,7 @@
      }
 
      .nav ul {
-          display: none;
+          display: block;
      }
      .fa-bars{
           display:  block;  
