@@ -81,7 +81,6 @@
 
   .nav ul {
       width: 100%;
-      flex-direction: column;
   }
 
   .nav ul li {
