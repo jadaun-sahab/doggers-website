@@ -89,11 +89,11 @@
       align-items: flex-start;
   }
 
-  .menubar {
+  .fa-bars {
       display: flex;
   }
 
-  .menubar span {
+  .fa-bars span {
       color: rgb(255, 255, 255);
       font-size: 2rem;
       background-color: rgb(26, 25, 25);
